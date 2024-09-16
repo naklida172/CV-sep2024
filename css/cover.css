@@ -1,0 +1,28 @@
+﻿@keyframes fadeInOut {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    .fading-text {
+      font-size: 300%;
+      animation: fadeInOut 3s infinite;
+    }
+
+body {
+	 display: flex;
+	 flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     font-family: Arial, sans-serif;
+     background-color: #d4d4d4;
+}
+
+ a {
+     text-decoration: none;
+     color: #0f91f5;
+     font-size: 200%;
+}
+ a:hover {
+     text-decoration: underline;
+}
