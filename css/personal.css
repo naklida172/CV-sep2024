@@ -1,0 +1,43 @@
+﻿body {
+	 display: flex;
+     justify-content: column;
+     align-items: center;
+     justify-content:center;
+     font-family: Arial, sans-serif;
+     background-color: #d4d4d4;
+}
+ .container {
+
+}
+ .container img {
+ 	 width: 30%;
+     max-height: 100%;
+     max-width: 100%;
+     object-fit: contain;
+     
+}
+#logo{
+	width: 10%;
+}
+ .container .text{
+}
+ h1 {
+     font-size: 6em;
+     margin: 0;
+}
+ p {
+     font-size: 1.5em;
+     margin: 0.5em;
+}
+ a {
+     text-decoration: none;
+     color: #0f91f5;
+     font-size: 1.2em;
+}
+ a:hover {
+     text-decoration: underline;
+}
+ .info-block {
+ 	justify-content: center;
+	background-color:white;
+}
